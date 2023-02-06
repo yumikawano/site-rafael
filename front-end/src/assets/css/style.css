@@ -1,0 +1,126 @@
+*{
+    background-color: black;
+}
+
+/* header */
+
+button{
+    margin-left: 20px;
+    margin-top: 60px;
+}
+
+.bi .bi-cart-fill{
+    border-color: black;
+    margin-top: 15px;
+}
+
+#btn-cart{
+ background-color: black;
+ border-color: black;
+}
+
+.btn-cart-badge {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0, 0, 0);
+    color: #ffffff;
+  }
+  
+  .btn-cart-badge-show {
+    display: flex;
+  }
+  
+  
+  .cart-sidebar{
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    top: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    flex-direction: column;
+    padding: 15px;
+  }
+  
+  .cart-sidebar-open{
+    display: flex;
+  }
+  
+  #btn-close-cart{
+    font-size: 30px;
+    color: #000000;
+    background: transparent;
+    align-self: flex-end;
+  }
+  
+  #empty-cart{
+    flex-grow: 1;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+  }
+
+  /* Home */
+
+.personal{
+  text-align: center;
+  color: #ffffff;
+  padding-top: 100px;
+}
+
+.personal-nome{
+  text-align: center;
+  color: #ffffff;
+}
+
+.description{
+  text-align: center;
+  justify-content: center;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 50px;
+  color: #ffffff;
+}
+
+.btn-contact{
+  margin-left: 700px;
+  margin-bottom: 100px;
+}
+
+/* sobre */
+
+.sobre{
+  color: #ffffff;
+  text-align: justify;
+  margin-top: 200px;
+  margin-right: 50px;
+}
+
+/* footer */
+
+.img-redes{
+    margin-top: 150px;
+    margin-left: 20px;
+}
+
+.info{
+    margin-top: 150px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.p-footer{
+    text-align: center;
+}
