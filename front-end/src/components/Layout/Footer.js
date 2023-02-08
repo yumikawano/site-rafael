@@ -28,7 +28,7 @@ export function Footer() {
             <p>Av. Mauá, 1308 - Maringá/PR</p>
           </Col>
           <Col>
-            <a href="https://wa.me/+5544998472200" target="_blank">
+            <a href="https://wa.me/+5544991484320" target="_blank">
               <Image
                 className="img-redes"
                 src={Whatsapp}
@@ -38,7 +38,7 @@ export function Footer() {
                 href=""
               />
             </a>
-            <a href="https://www.instagram.com/petmaniamga/" target="_blank">
+            <a href="https://www.instagram.com/sasaki_rafael/" target="_blank">
               <Image
                 className="img-redes"
                 src={Instagram}
@@ -48,7 +48,7 @@ export function Footer() {
               />
             </a>
             <a
-              href="https://pt-br.facebook.com/petmaniamaringa"
+              href="https://www.facebook.com/rafael.montoia.7"
               target="_blank"
             >
               <Image
@@ -63,8 +63,7 @@ export function Footer() {
         </Row>
       </Container>
       <p className="p-footer">
-        Copyright 2022 © Todos os direitos reservados à Rafael Sasaki Personal
-        Trainer
+        Copyright 2022 © Desenvolvido por Yumi Kawano
       </p>
     </footer>
   );
